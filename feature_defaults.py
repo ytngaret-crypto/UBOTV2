@@ -1,0 +1,17 @@
+DEFAULT_SETTINGS = {
+    "autoreply": {"enabled": True, "mode": "contains"},
+    "antispam": {"enabled": False, "max_messages": 8, "window_seconds": 10, "mute_seconds": 60},
+    "translate": {"enabled": True, "target_language": "id"},
+    "ai": {"enabled": True, "model": "default", "system_prompt": "Jawab dengan singkat dan jelas."},
+    "ocr": {"enabled": True, "language": "eng"},
+    "music": {"enabled": True, "provider": "youtube"},
+    "movie": {"enabled": True, "language": "id-ID"},
+    "game": {"enabled": True, "xp_per_win": 10},
+    "quiz": {"enabled": True, "question_count": 5},
+    "random": {"enabled": True},
+    "textgen": {"enabled": True, "model": "default"},
+    "texttools": {"enabled": True},
+    "jashare": {"enabled": True, "interval_seconds": 5},
+    "payment": {"enabled": True},
+    "qr": {"enabled": True},
+}

@@ -1,0 +1,45 @@
+FEATURES = {
+    "dashboard": ("📋 Semua Fitur", "Menu utama UBot"),
+    "ban": ("🚫 Ban", "Ban member dari grup"),
+    "unban": ("♻️ Unban", "Buka blokir member"),
+    "mute": ("🔇 Mute", "Bisukan member"),
+    "unmute": ("🔊 Unmute", "Buka mute member"),
+    "autoreply": ("🤖 Auto Reply", "Balasan otomatis berdasarkan keyword"),
+    "antispam": ("🛡️ Anti Spam", "Deteksi spam dan mute otomatis"),
+    "translate": ("🌐 Translate", "Terjemahkan teks"),
+    "ai": ("🧠 AI Assistant", "Chat dengan Gemini"),
+    "ocr": ("👁️ OCR", "Baca teks dari gambar"),
+    "music": ("🎵 Music", "Cari lagu / buat link pencarian"),
+    "movie": ("🎬 Movie", "Cari film melalui TMDB"),
+    "game": ("🎮 Game", "Game sederhana + skor"),
+    "quiz": ("🧩 Quiz", "Quiz pengetahuan umum"),
+    "random": ("🎲 Random", "Pilih acak dari beberapa pilihan"),
+    "textgen": ("✍️ Text Generator", "Buat teks dengan Gemini"),
+    "texttools": ("🔤 Text Tools", "Hitung dan ubah teks"),
+    "jashare": ("📢 JaShare", "Kirim pesan ke target yang disimpan"),
+    "payment": ("💳 Payment", "Tampilkan informasi pembayaran"),
+    "qr": ("🔳 QR Generator", "Buat QR code"),
+}
+
+COMMAND_FEATURES = {
+    "menu": "dashboard", "help": "dashboard",
+    "ban": "ban", "unban": "unban", "mute": "mute", "unmute": "unmute",
+    "autoreply": "autoreply", "delreply": "autoreply", "listreply": "autoreply",
+    "antispam": "antispam", "translate": "translate", "ai": "ai", "ocr": "ocr",
+    "song": "music", "music": "music", "movie": "movie",
+    "game": "game", "score": "game", "quiz": "quiz", "random": "random",
+    "textgen": "textgen", "texttools": "texttools",
+    "jashare": "jashare", "addtarget": "jashare", "deltarget": "jashare", "targets": "jashare",
+    "pay": "payment", "setpay": "payment", "qr": "qr",
+    "settings": "dashboard", "set": "dashboard", "on": "dashboard", "off": "dashboard",
+    "setadmin": "dashboard", "allow": "dashboard", "deny": "dashboard",
+}
+
+CATEGORIES = {
+    "👥 Group Management": ["ban", "unban", "mute", "unmute", "antispam"],
+    "🤖 Automation": ["autoreply", "jashare"],
+    "🧠 AI & Tools": ["ai", "translate", "ocr", "textgen", "texttools", "qr"],
+    "🎵 Media": ["music", "movie"],
+    "🎮 Games": ["game", "quiz", "random"],
+    "💳 Payment": ["payment"],
+}
